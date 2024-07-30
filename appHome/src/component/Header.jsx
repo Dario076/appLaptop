@@ -1,5 +1,5 @@
-import './Header.css'
-import 'app.css'
+
+
 function Header() {
     return (
         <>
@@ -8,7 +8,12 @@ function Header() {
                 <div className="row justify-content-center justify-content-md-between">
                     <div className="col-8 col-md-3">
                         <a href="index.html">
-                        <img src="./public/img/35202481_laptop_cartoon 2.svg" alt="logo" className="logo-pequeno" />
+                        <div className="small-logo">
+    <div className="image-container">
+        <h3>CompuNET<img src="/public/img/logolaptop.png" alt="logo-laptop" style={{ width: '150px', height: '150px', marginLeft: '15px' }} /></h3>
+    </div>
+</div>
+                            
                         </a>
                     </div>
                     <nav className="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
@@ -16,7 +21,7 @@ function Header() {
                             <img className="img-fluid" src="./public/img/carrito.png" alt="imagen carrito" />
 
                             <div id="carrito" className="bg-white p-3">
-                                <p className="text-center">El carrito está vacío</p>
+                                <p className="text-center">El carrito esta vacio</p>
                                 <table className="w-100 table">
                                     <thead>
                                         <tr>
@@ -30,11 +35,11 @@ function Header() {
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <img className="img-fluid" src="./public/img/laptop_01.jpg" alt="imagen laptop" />
+                                                <img className="img-fluid" src="./public/img/laptop_02.jpg" alt="imagen laptop" />
                                             </td>
-                                            <td>MacBook Pro</td>
+                                            <td>Laptop HP 250 G9</td>
                                             <td className="fw-bold">
-                                                $1299
+                                                $999
                                             </td>
                                             <td className="flex align-items-start gap-4">
                                                 <button
@@ -63,16 +68,21 @@ function Header() {
                                     </tbody>
                                 </table>
 
-                                <p className="text-end">Total a pagar: <span className="fw-bold">$1299</span></p>
+                                <p className="text-end">Total pagar: <span className="fw-bold">$999</span></p>
                                 <button className="btn btn-dark w-100 mt-3 p-2">Vaciar Carrito</button>
                             </div>
                         </div>
                     </nav>
                 </div>
             </div>
+
         </header>
         </>
+
+
+
     )
+
 }
 
 export default Header

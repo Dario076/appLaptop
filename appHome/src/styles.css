@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .image {
+            margin-right: 20px;
+        }
+        .text {
+            color: orange;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+    <title>CompuNET</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="/public/img/logolaptop.png" alt="CompuNET">
+        </div>
+        <div class="text">
+            compuNET<br>
+            laptop y<br>
+            servicios de<br>
+            mantenimiento
+        </div>
+    </div>
+</body>
+</html>

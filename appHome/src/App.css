@@ -3,6 +3,7 @@
   font-weight: 900;
 }
 
+
 .btn-dark {
   text-transform: uppercase;
 }
@@ -309,6 +310,7 @@ button:not(:disabled),
 .img-fluid {
   max-width: 100%;
   height: auto;
+ 
 }
 
 
@@ -722,26 +724,37 @@ button:not(:disabled),
   }
 }
 .header {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/header.jpg");
-  /** TODO: Eliminar la sig linea **/
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../public/img/header.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/logo.svg");
   background-position: 50%;
   background-size: cover;
   position: relative;
 }
-.header .header-guitarra {
+.header .header-laptop {
   display: none;
 }
 @media (min-width: 992px) {
   .header .header-laptop {
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-timing-function: ease-in-out;
-    animation-name: animarImagen;
-    z-index: 10;
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      animation-duration: 1s;
+      animation-delay: 0s;
+      animation-timing-function: ease-in-out;
+      animation-name: animarImagen;
+      z-index: 10;
   }
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+}
+
+.derecha {
+  float: right;
+  
+  color: white; /* Cambia el color según tu diseño */
 }

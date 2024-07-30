@@ -1,7 +1,7 @@
 export const db = [
     {
         id: 1,
-        name: 'Asus Vivobook 15',
+        name: 'ASUS Vivobook 15',
         image: 'laptop_01',
         description: 'Potente y elegante, ideal para profesionales creativos.',
         price: 1299,
@@ -15,9 +15,9 @@ export const db = [
     },
     {
         id: 3,
-        name: 'LAPTOP HP ELITEBOOK 845 G7',
+        name: 'Laptop HP Elitebook 845 G7',
         image: 'laptop_03',
-        description: 'Convertible y versátil, con una pantalla impresionante.',
+        description: 'Convertible y versatil, con una pantalla impresionante.',
         price: 1199,
     },
     {
@@ -29,31 +29,58 @@ export const db = [
     },
     {
         id: 5,
-        name: 'LAPTOP LENOVO IP1 15AMN7',
+        name: 'Laptop LENOVO IP1 15AMN7',
         image: 'laptop_05',
-        description: 'Ligero y elegante, con un rendimiento excepcional.',
+        description: 'Ligero y elegante, con un movimiento excepcional.',
         price: 899,
     },
     {
         id: 6,
-        name: 'LAPTOP LENOVO V15 G3',
+        name: 'Laptop LENOVO V15 G3',
         image: 'laptop_06',
-        description: 'Diseño premium y rendimiento sólido.',
+        description: 'Diseño premiun y rendimiento solido.',
         price: 1299,
     },
     {
         id: 7,
-        name: 'LAPTOP LENOVO V15',
+        name: 'Laptop LENOVO V15',
         image: 'laptop_07',
-        description: 'Económico y eficiente, perfecto para estudiantes.',
+        description: 'Econcónomico y eficiente, perfecto para estudiantes.',
         price: 699,
     },
     {
         id: 8,
+        name: 'ACER ASPIRE 3',
+        image: 'laptop_10',
+        description: 'Diseñada para la multitarea ptractica y la productividad.',
+        price: 499,
+    },
+    {
+        id: 9,
+        name: 'Laptop HP 15',
+        image: 'laptop_09',
+        description: 'Se desempeña de una forma excelente para la multitarea, lo que la hace perfecto para estudiantes o el trabajo .',
+        price: 499,
+    },
+    {
+        id: 10,
         name: 'Razer Blade 15',
         image: 'laptop_08',
-        description: 'Potente y elegante, ideal para gaming.',
-        price: 1599,
-    }
-  ];
-  
+        description: 'Potente y elegante, ideal para el gaming.',
+        price: 1.250,
+    },
+    {
+        id: 11,
+        name: 'ASUS ROG FLOW X13',
+        image: 'laptop_11',
+        description: 'Ideal para el gaming.',
+        price: 1.173,
+    },
+    {
+        id: 12,
+        name: 'ASUS ROG Strix G15',
+        image: 'laptop_12',
+        description: 'Una potente combiancion ideal para el gaming.',
+        price: 1.467,
+    },
+  ]

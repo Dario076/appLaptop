@@ -1,6 +1,8 @@
+
+
 export default function Laptop({laptop}){
 
-    const {id, name, image, description, price} = laptop;
+    const {id, name, image, description, price}=laptop
 
     return(
         <>
